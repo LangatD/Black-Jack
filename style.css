@@ -83,11 +83,11 @@ h2, h3 {
     text-align: center; 
 }
 
-#game-board {
+/* #game-board {
     display: flex;
     justify-content: space-between;
     margin: 20px 0;
-}
+} */
 
 .cards {
     border: 1px solid white;
@@ -181,4 +181,57 @@ button {
     background-color: #2e8b57; 
     padding: 20px; 
     border-radius: 10px; 
+}
+
+/* What I added */
+
+#dealer-cards img {
+    height: 150px;
+    width: 100px;
+    margin: 1px;
+}
+
+#your-cards img {
+    height: 175px;
+    width: 125px;
+    margin: 1px;
+}
+
+#hit {
+    font-weight: bold;
+    width: 100px;
+    height: 50px;
+    font-size: 20px;
+    align-items: center;
+}
+
+#stand {
+    font-weight: bold;
+    width: 100px;
+    height: 50px;
+    font-size: 20px;
+    align-items: center;
+}
+
+#start {
+    font-weight: bold;
+    background-color: red;
+    align-items: center;
+    border-radius: 10px;
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+}
+
+.video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+}
+
+.card-image {
+    width: 80px;
+    height: auto;
+    margin-right: 10px;
 }

@@ -69,7 +69,7 @@
             <li>Dealer’s turn: After all players have had their turn, the dealer will reveal their face-down card and hit or stand according to predetermined rules.</li>
             <li>Determine the winner: If neither the player nor the dealer busts, the person with the highest hand value wins.</li>
         </ol>
-        <div><h2>Hit</h2>
+        <div><h2>HIT</h2>
             <p>
                 This is a decision that a player makes to order for another card from the dealer to make his hand a good hand by having a hand value of 17 or higher.
                  However if the dealer has a face-up card of 7 or higher the player should aim for a hand value of 18 or higher.
@@ -83,13 +83,23 @@
             </div>
             <div><h2>STAND</h2>
                 <p>If your fisrt two cards are accepatable or with good hand value, you can stand <br>
-                    and the dealer will move to the next player.[Hand-signal: Wave your hand or simply put out <br>
-                    open palm over the felt.]</p>
+                    and the dealer will move to the next player.(Hand-signal: Wave your hand or simply put out <br>
+                    open palm over the felt.)</p>
             </div>
             <div>
                 <img src="https://www.blackjackapprenticeship.com/wp-content/uploads/2018/08/Blackjack-hand-signal-for-standing-1.jpg" alt="Hand signal for stand">
             </div>
-            
+            <div>
+                <h2>SPLIT</h2>
+                <P>
+                    Splitting in blackjack is a strategy that enables players to create two separate hands when dealt <br>
+                    two cards of the same rank, such as two 7s or two Kings. To split, you place an additional bet equal <br>
+                    to your original wager, and each card then becomes the first card of a new hand. You'll receive an additional <br>
+                    card for each hand and can choose to hit or stand as normal. Splitting is generally recommended for pairs of <br>
+                    Aces and 8s, while it's typically best to avoid splitting 10s, as a total of 20 is a strong hand. Understanding <br>
+                    when and how to split can enhance your gameplay and increase your chances of winning.
+                </P>
+            </div>  
         </div>
     </div>
     <div id="game-strategy">
@@ -114,6 +124,8 @@
         </section>
         <div>
             <h2>Here's a Youtube Tutorial for Your Use</h2>
+        </div>
+        <div class = "video-container">
             <iframe width="560" height="315" src="https://www.youtube.com/embed/PljDuynF-j0?si=iwLt3hiGgevJ1ijP" 
             title="YouTube video player"
              frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
@@ -122,7 +134,7 @@
     
     </div>
     <div class="game-container">
-        <h1>Blackjack</h1>
+        <h1>Let's Play!</h1>
         <div id="game-board">
             <div class="player-area">
                 <h2>Player</h2>
@@ -136,19 +148,16 @@
             </div>
         </div>
         <div class="controls">
-            <button id="hit">Hit</button>
-            <button id="stand">Stand</button>
-            <button id="start">Start Game</button>
+            <button id="hit">HIT</button>
+            <button id="stand">STAND</button>
+            <button id="start">START GAME</button>
             <div id="result" class="result"></div>
         </div>
         <div class="blackjack-split-button">
-            <button class="split-main-button">Split</button>
+            <button class="split-main-button">SPLIT</button>
             <button class="split-dropdown-button">▼</button>
         </div>
-        
     </div>
-    
-
     <script src="script.js"></script>
 </body>
 </html>
